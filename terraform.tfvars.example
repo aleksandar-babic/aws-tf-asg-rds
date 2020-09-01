@@ -1,0 +1,2 @@
+env     = "webapp-dev-test"
+db_name = "wptest"
