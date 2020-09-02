@@ -26,6 +26,7 @@ variable "asg_max_size" {
   description = "Maximum size of the ASG."
   default     = 5
 }
+
 variable "asg_desired_capacity" {
   type        = number
   description = "Desired capacity of the ASG."
@@ -37,7 +38,6 @@ variable "asg_instance_type" {
   description = "Instance type of the ASG."
   default     = "t3.micro"
 }
-
 
 variable "asg_cpu_metric_period" {
   type        = string
