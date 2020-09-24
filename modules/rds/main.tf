@@ -1,5 +1,6 @@
 resource "random_password" "db" {
-  length = var.db_password_length
+  length  = var.db_password_length
+  special = false
 }
 
 resource "aws_ssm_parameter" "db_password" {
